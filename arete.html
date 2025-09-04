@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arete</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #FDF3E8;
+      color: #333;
+	  text-align: center;
+    }
+    header {
+      background-image: url(c22222.webp); /* your image */
+      background-size: cover;   /* makes the image cover the whole header */
+      background-position: center; /* centers the image */
+      color: #C42C0E;  /* text color */
+      text-align: center;
+      padding: 20px 20px; /* makes header taller */
+	  font-size: 50px;
+	 
+    }
+	
+	}
+    nav {
+      background: #333;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: #C42C0E;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+    }
+	pre {
+	font-family: Arial;
+	color: #333333;
+	}
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+	button {
+	float: right;
+	color: brown;
+	}
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>project webistie</h1>
+    <p>cutesicarmela2<p>
+  </header>
+
+  <nav>
+    <a href="#home">quotes</a>
+    <a href="#about">about us</a>
+    <a href="#contact">contacts</a>
+	<a href="#discord">Join our Discord Server</a>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>motivinating</h2>
+      <pre>
+	  <p>motivaitonal quotes na nakakainspire by me
+	  nakakaiyak super basahin nyo all</p>
+	  </pre>
+	  <img src="DPS-1.png" alt="o captain" width="400"> <br>
+	  o caption my caption <br>
+    </section>
+
+    <section id="about">
+      <h2>about us</h2>
+      <p>this website is brought to u by pancit canton chilimansi</p>
+    </section>
+<section id="discord">
+		<h2> discord server</h2>
+	<p>
+	Arete linkkkkkkkkkasjfdoqw3ijd.com <br>
+	Join us now!
+	</p>
+	</section>
+    <section id="contact">
+      <h2>Contact us</h2>
+      <p>
+	  Emails:
+	  <br>
+	  murillokiddo07@gmail.com<br>
+	  rezhia.garniel0204@gmail.com<br>
+	  leiarynramos123@gmail.com
+	  </p>
+      <p>Phone: 09435178794</p>
+    </section>
+	
+	<button id="backToTop">⬆ Back to Top</button>
+
+  <script>
+    let backToTopBtn = document.getElementById("backToTop");
+
+    // Show button when scrolled down
+    window.onscroll = function() {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        backToTopBtn.style.display = "block";
+      } else {
+        backToTopBtn.style.display = "none";
+      }
+    };
+
+    // Scroll to top when clicked
+    backToTopBtn.onclick = function() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+  </script>
+	
+  </main>
+  <footer>
+    <p>&copy; PROJECT T-TAYO </p>
+  </footer>
+
+</body>
+</html>
